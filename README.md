@@ -9,14 +9,14 @@
 * Ou - No diretório do projeto, Execute o comando : mvn clean package -DskipTests (Um .jar será gerado na pasta ./target)
 ```
 
-### Test Spring Boot upload multiple files
+### Test Spring Boot
 
 * POST - Upload and send > http://localhost:8080/federal-revenue/upload/update-accounts.
   * Body -> ./big-account-list.csv
 * GET - work directory List files >  http://localhost:8080/federal-revenue/files.
 
 ```
-# É possível também realizar testes dos endpoints chamando via POSTMAN.
+# É possível realizar testes dos endpoints chamando via POSTMAN.
 # IMPORTE A COLLECTION :
 
 {"info":{"_postman_id":"07f7968b-9db8-44e4-9425-f2a5a984ce8c","name":"UploadAndUpdateFiles","schema":"https://schema.getpostman.com/json/collection/v2.1.0/collection.json"}
@@ -36,10 +36,8 @@
 Acesse :  http://localhost:8080/swagger-ui.html
 
 ```
-* Ele foi adicionado ao projeto com intuito de trazer uma breve documentação e testar a aplicação
-* Acesse : http://localhost:8080/swagger-ui.html
-* Execute os teste com auxilio da interface
-* É possível também realizar testes dos endpoints chamando via POSTMAN.
+* Ele foi adicionado ao projeto com intuito de trazer uma brevíssima documentação e testar a aplicação
+* Acesse o link acima e execute os teste com auxilio da interface
 
 PORT=8080
 ```
